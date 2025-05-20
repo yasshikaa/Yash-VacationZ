@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yash Vacations - About</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Yash Vacations</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="feedback.html">Feedbacks</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="description">
+    <h1>About Yash Vacations 🏕️</h1>
+    <p>
+      Founded in 2025, Yash Vacations aims to provide unforgettable experiences combining nature and luxury. Whether you're an adventure seeker or looking to relax in a 5-star hotel, we've got the perfect plan for you.
+    </p>
+  </section>
+  <section>
+    <h2>Need Help? Chat With Us!</h2>
+    <p>Contact our support anytime by clicking the chat button 💬 at the bottom right.</
