@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yash Vacations - Home</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Yash Vacations</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="feedback.html">Feedbacks</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="intro">
+    <h1>Welcome to Yash Vacations 🌴</h1>
+    <p>
+      Discover unforgettable adventure escapes with our unique vacation packages.
+      Whether you crave cozy tents under the stars, warm campfires, or luxury 5-star hotels — we have it all!
+    </p>
+    <button onclick="document.getElementById('plans').scrollIntoView({behavior:'smooth'})" class="book-now-btn">Book Now 🏕️</button>
+  </section>
+
+  <section class="image-gallery">
+    <div>
+      <h3>Tent Life</h3>
+      <img src="images/tent1.jpg" alt="Tent" />
+      <img src="images/tent2.jpg" alt="Tent" />
+    </div>
+    <div>
+      <h3>Campfire Nights</h3>
+      <img src="images/campfire1.jpg" alt="Campfire" />
+      <img src="images/campfire2.jpg" alt="Campfire" />
+    </div>
+    <div>
+      <h3>Luxury Hotels</h3>
+      <img src="images/hotel1.jpg" alt="Hotel" />
+      <img src="images/hotel2.jpg" alt="Hotel" />
+    </div>
+  </section>
+
+  <section id="plans" class="plans-section">
+    <h2>Choose Your Plan 🏖️</h2>
+    <div class="plans-container">
+      <div class="plan-card">
+        <div class="plan-icon">⛺</div>
+        <h3>Basic Camp</h3>
+        <p>Includes tent stay, basic meals, and guided hiking.</p>
+        <p class="price">$150 / night</p>
+        <button class="select-plan-btn">Select</button>
+      </div>
+      <div class="plan-card">
+        <div class="plan-icon">🔥</div>
+        <h3>Campfire Package</h3>
+        <p>All Basic Camp features + nightly campfire & marshmallows.</p>
+        <p class="price">$220 / night</p>
+        <button class="select-plan-btn">Select</button>
+      </div>
+      <div class="plan-card">
+        <div class="plan-icon">🏨</div>
+        <h3>Luxury Retreat</h3>
+        <p>5-star hotel stay, gourmet dining & spa access included.</p>
+        <p class="price">$450 / night</p>
+        <button class="select-plan-btn">Select</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Floating Chat Button -->
+<a href="mailto:support@yashvacations.com" class="chat-button" title="Chat with Support">💬</a>
+
+<footer>
+  <p>© 2025 Yash Vacations. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
